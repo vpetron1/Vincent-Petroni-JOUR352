@@ -1,9 +1,12 @@
+/* Stlyes for my resumes */
+/* This adds the font type and color as well as the overall weight throughout the page */
 body {
   font-family: "Open Sans", Ariel, sans-serif;
   color: #444;
   font-weight: 400;
 }
 
+/* This differentiates the font type and color for the header (h1) from the body and overrides the body's aspects */
 h1 {
   color: #33485e;
   font-size: 3.5em;
@@ -11,12 +14,14 @@ h1 {
   text-align: center;
 }
 
+/* This is a class selector for the job title which is a paragraph, made a class so it only changes this paragraph */
 .title {
   text-transform: uppercase;
   font-size: 2em;
   color: #33485e;
 }
 
+/* This creates all section titles with h2 to uppercase with a background color and specific fonts */
 h2 {
   text-transform: uppercase;
   font-size: 1.5em;
@@ -25,22 +30,26 @@ h2 {
   font-weight: 400;
 }
 
+/* Changing the font size and weight for job titles */
 h3 {
   font-weight: 600;
   font-size: 2em;
 }
 
+/* Changing font size and weight of all job organizations */
 h4 {
   font-weight: 400;
   font-size: 1.5em;
 }
 
+/* Chaning font size, weight and style for the job dates */
 h5{
   font-weight: 400;
   font-size: 1em;
   font-style: italic;
 }
 
+/* Additional descendant selector for the lists to have the same style as the job organizations */
 ul li {
   font-weight: 400;
   font-size: 1.5em;
