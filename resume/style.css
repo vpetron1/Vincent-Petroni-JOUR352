@@ -6,12 +6,22 @@ body {
   font-weight: 400;
 }
 
+#container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
 /* This differentiates the font type and color for the header (h1) from the body and overrides the body's aspects */
-h1 {
+#name {
   color: #33485e;
   font-size: 3.5em;
   text-transform: uppercase;
   text-align: center;
+  border-bottom: 2px solid #33485e;
+  margin: 0 auto;
+  width: 60%;
+  min-width: 300px;
 }
 
 /* This is a class selector for the job title which is a paragraph, made a class so it only changes this paragraph */
@@ -22,31 +32,35 @@ h1 {
 }
 
 /* This creates all section titles with h2 to uppercase with a background color and specific fonts */
-h2 {
+.sectionheader {
   text-transform: uppercase;
   font-size: 1.5em;
   background-color: #33485e;
   color: white;
   font-weight: 400;
+  margin: 10px 0px 20px 0px;
+  width: 70%;
+  min-width: 300px;
 }
 
 /* Changing the font size and weight for job titles */
-h3 {
+.jobtitle {
   font-weight: 600;
   font-size: 2em;
 }
 
 /* Changing font size and weight of all job organizations */
-h4 {
+.organization {
   font-weight: 400;
   font-size: 1.5em;
 }
 
 /* Chaning font size, weight and style for the job dates */
-h5{
+.date {
   font-weight: 400;
   font-size: 1em;
   font-style: italic;
+  margin: 0px 0px 3px 0px;
 }
 
 /* Additional descendant selector for the lists to have the same style as the job organizations */
