@@ -63,6 +63,21 @@ body {
   margin: 0px 0px 3px 0px;
 }
 
+.description {
+  margin: 10px 0px 10px 0px;
+}
+
+.menu {
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+.menu li {
+  display: inline;
+  list-style-type: none;
+}
+
 /* Additional descendant selector for the lists to have the same style as the job organizations */
 ul li {
   font-weight: 400;
