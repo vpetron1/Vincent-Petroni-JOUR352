@@ -25,10 +25,13 @@ body {
 }
 
 /* This is a class selector for the job title which is a paragraph, made a class so it only changes this paragraph */
-.title {
+#title {
   text-transform: uppercase;
   font-size: 2em;
   color: #33485e;
+  font-weight: 600px;
+  text-align: center;
+  margin: 20px 0px 0px 0px;
 }
 
 /* This creates all section titles with h2 to uppercase with a background color and specific fonts */
@@ -82,4 +85,15 @@ body {
 ul li {
   font-weight: 400;
   font-size: 1.5em;
+}
+
+#degrees {
+  margin:5px 0px 0px 0px;
+}
+
+.top {
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
