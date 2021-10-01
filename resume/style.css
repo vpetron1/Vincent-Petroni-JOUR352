@@ -6,6 +6,7 @@ body {
   font-weight: 400;
 }
 
+/* Container ID selector which allows for the whole body to have specific padding */
 #container {
   width: 100%;
   max-width: 1200px;
@@ -76,21 +77,17 @@ body {
   padding: 0px;
 }
 
+/* Descendant selector for the menu list items */
 .menu li {
   display: inline;
   list-style-type: none;
-}
-
-/* Additional descendant selector for the lists to have the same style as the job organizations */
-ul li {
-  font-weight: 400;
-  font-size: 1.5em;
 }
 
 #degrees {
   margin:5px 0px 0px 0px;
 }
 
+/* Top description class, ironically at the bottom of the CSS style sheet */
 .top {
   width: 60%;
   min-width: 300px;
