@@ -29,6 +29,9 @@ h1, h2, h3, .navbar-brand {
 @media screen and (max-width: 500px) {
  h2 {
    padding-top: 50px;
+ }
+
+ .btn {
    background-color: teal !important;
  }
 }
