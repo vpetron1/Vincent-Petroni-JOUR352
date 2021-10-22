@@ -1,0 +1,82 @@
+/* page wrap which centers the whole page */
+.pagewrap {
+  text-align: center;
+}
+
+/* adds the overall look and font to the page */
+.content p {
+  font-family: Helvetica, Arial ,sans-serif;
+  font-size: 12px;
+  margin: 0 auto;
+  width: 900px;
+}
+
+blockquote {
+  font: 24px Helvetica, sans-serif;
+  font-style: italic;
+  color: navy;
+  width: 900px;
+  padding: 0px 220px 0px 220px;
+}
+
+h2 {
+  font-family: Georgia;
+  font-size: 45px;
+}
+
+h3 {
+  font-family: Georgia;
+  font-size: 18px;
+}
+
+#byline {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-variant-caps: all-small-caps;
+}
+
+/* created header color, font and padding */
+.header {
+  font-family: Calisto MT, Bookman Old Style, Bookman, Goudy Old Style, Garamond, Hoefler Text, Bitstream Charter, Georgia, serif;
+  font-size: 50px;
+  padding: 20px;
+  text-shadow: 2px 2px white;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-color: lightblue;
+  border-radius: 500px;
+  background-image: url("https://img.icons8.com/external-flatart-icons-outline-flatarticons/64/000000/external-soccer-sports-flatart-icons-outline-flatarticons.png");
+}
+
+.content img, a {
+  padding: 20px 0px 50px 0px;
+  margin: 0 auto;
+  width: 1200px;
+}
+
+/* created an inline block look that allows for the three images to be in one line */
+.content table img {
+  display: inline-block;
+  padding: 10px;
+  width: auto;
+  height: 400px;
+}
+
+table {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* related items padding and page color */
+.relatedItems {
+  background-color: lightblue;
+  border-radius: 500px;
+  padding: 1px;
+  margin: 50px;
+}
+
+/* takes out bullet points */
+.relatedItems li {
+  list-style: none;
+}
