@@ -1,0 +1,127 @@
+/* header image style */
+.header {
+  background-image: url("headerimage.JPEG");
+  height: 500px;
+  width: 1500px;
+  background-position: center;
+  background-size: cover;
+}
+
+/* padding for the row */
+.row {
+  padding-top: 20px;
+}
+
+/* making the image circular cropped */
+#image {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+/* sizing the image to fit the crop */
+#image img {
+  width: 110px;
+}
+
+/* container styling */
+#container {
+  font-family: "Myanmar Sans Pro", sans-serif;
+  margin: 0 auto;
+  max-width: 900px;
+  align-items: center;
+}
+
+/* stlying specific for multimedia journalist identification */
+#identification {
+  font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+  text-transform: lowercase;
+  font-size: 20px;
+}
+
+/* styling for my name */
+#name {
+	font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+  text-transform: uppercase;
+  font-size: 50px;
+  display: flex;
+}
+
+/* making the line to separate the menu listing with the list itself */
+#menu {
+  border-left: solid #323288;
+}
+
+/* making the list not have bullets and making them lowercase */
+#menu li {
+  font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+  text-transform: lowercase;
+  font-size: 20px;
+  list-style: none;
+}
+
+/* the few below are just stlying fonts and font size */
+#title {
+  font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+  text-transform: lowercase;
+  font-size: 20px;
+  display: flex;
+}
+
+.sectionheader {
+  font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 10px 10px 10px 0px;
+}
+
+.jobtitle {
+  font-size: 20px;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+}
+
+.organization {
+  font-size: 16px;
+  font-style: oblique;
+}
+
+.date {
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.description {
+  font-size: 14px;
+}
+
+.top {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* education list stying */
+#degrees {
+  list-style: none;
+  display: contents;
+  font-size: 14px;
+}
+
+/* skills list styling */
+#skills {
+  display: contents;
+  font-size: 14px;
+}
+
+/* created a vertical line "vl" style to make the side purple lines for dividers */
+.vl {
+  border-left: thick solid #323288;
+  padding-left: 20px;
+}
+
+/* extra margin space for buffer */
+#footer {
+  margin: 50px;
+}
