@@ -1,0 +1,258 @@
+body {
+  font-family: 'Libre Baskerville', serif;
+}
+
+/* for the nav bar beginning */
+.bg-dark {
+  background:#000 !important;
+}
+
+.navbar-text {
+  margin:0 auto;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+  font-size:.9em;
+  text-transform: uppercase;
+}
+
+.navbar {
+  height:50px;
+}
+
+/* nav bar end */
+
+/* hero image and text */
+.hero-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.overlay {
+  position: absolute;
+  width:100%;
+  top: 20%;
+}
+
+.hero-image{
+  width:100%;
+}
+
+.hero-hed{
+  padding-top:10px;
+  margin:0 auto;
+  font-size:6em;
+  font-family: 'Libre Baskerville', serif;
+  padding-bottom:10px;
+  color:#fff;
+  text-shadow: black 1px 0 10px;
+}
+
+.hero-sub {
+  font-family: 'Outfit', sans-serif;
+  font-size:.25em;
+}
+
+.pop {
+    color: #dc101d;
+}
+/* hero image and text end */
+
+/* text style */
+.container {
+  text-align: center;
+}
+
+.hed {
+  font-size:4.5em;
+  font-family: 'Libre Baskerville', serif;
+  line-height:130%;
+}
+
+.byline {
+  font-size:1em;
+  font-family: 'Outfit', sans-serif;
+  text-align: center;
+  padding: 1%;
+}
+
+p{
+  text-align: left;
+  line-height: 180%;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.dropcap {
+  color: #dc101d;
+  float: left;
+  font-size: 4em;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+  font-weight: 700;
+}
+
+.section-header {
+  font-family: 'Outfit', sans-serif;
+  color: #dc101d;
+  font-size:2.5em;
+  padding-top:15px;
+  font-weight: 400;
+  text-shadow: #dc101d 1px 0 10px;
+  text-transform:uppercase;
+}
+
+.caption {
+  width:100%;
+  max-width:900px;
+  margin: 0 auto;
+  padding-bottom:30px;
+  font-family: 'Outfit', sans-serif;
+  color: grey;
+  font-size:.85em;
+}
+
+.caption-credit {
+  font-style: italic;
+}
+/* text end */
+
+/* elements and photos */
+.image {
+  width:100%;
+  max-width:900px;
+  margin:0 auto;
+  padding-top:15px;
+  height:100%;
+}
+
+.full-image {
+  width:100%;
+}
+
+/* I found a way to do this onine with help from https://freefrontend.com/css-quote-styles/ and tweaked it to be what I wanted */
+.quote {
+    position: relative;
+    text-align: left;
+    padding: 1rem 1.2rem;
+    width: 60%;  /* create space for the quotes */
+    margin: 1rem auto 2rem;
+    background:
+    linear-gradient(to right, #dc101d 6px, transparent 6px) 0 100%,
+    linear-gradient(to left, #dc101d 6px, transparent 6px) 100% 0,
+    linear-gradient(to bottom, #dc101d 6px, transparent 6px) 100% 0,
+    linear-gradient(to top, #dc101d 6px, transparent 6px) 0 100%;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    font-size: 2.5em;
+}
+
+.credit {
+  text-align: right;
+  font-size: .5em;
+  font-style: italic;
+  font-family: 'Outfit', sans-serif;
+}
+/* sidebar code */
+.sidebar{
+  width: 80%;
+  margin: 0 auto;
+  border-left: dashed #dc101d 5px;
+  border-bottom: dashed #dc101d 5px;
+  border-right: dashed #dc101d 5px;
+  margin-top:25px;
+  margin-bottom:25px;
+}
+
+.sidebar-title{
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.25em;
+  text-align: center;
+  color:	white;
+  background: #dc101d;
+}
+
+.sidebar-text{
+  padding-left: 3em;
+  padding-right: 3em;
+  font-family: 'Outfit', sans-serif;
+  font-size: 1em;
+  text-align: left;
+  color:#black;
+}
+
+.source-text {
+  padding-left: 1em;
+  padding-right: 1em;
+  font-family: 'Outfit', sans-serif;
+  font-style: italic;
+  font-size: .8em;
+  text-align: left;
+  color: black;
+}
+
+.graphs {
+  padding: 15px;
+}
+
+/*element and photo end */
+/* footer beginning */
+.footer {
+  background: #000;
+  min-height: 30px;
+  margin-top:50px;
+  color: white;
+  text-align: center;
+  position: static;
+}
+
+/* footer end */
+
+/* media queries */
+@media(max-width:800px) {
+.hero-hed {
+  font-size:3em;
+}
+
+}
+
+
+@media(max-width:550px) {
+  .hero-hed {
+    font-size:1.5em;
+  }
+
+  p {
+    padding-left:20px;
+    padding-right:10px;
+  }
+
+  .chapter-head {
+    font-size:1.25em;
+  }
+
+  .intro-text {
+    font-size:1.25em;
+  }
+
+  .hed {
+    font-size:2em;
+  }
+
+  .hero-text{
+    font-size:2em;
+    top:50%;
+  }
+
+  .quote {
+    display:none;
+    font-size:1em;
+  }
+
+.text-box {
+  width:100%;
+}
+
+}
+/* end of queries */
