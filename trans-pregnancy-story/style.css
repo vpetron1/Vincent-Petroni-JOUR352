@@ -119,6 +119,7 @@ p{
 
 /* graphics and other elements */
 
+/* got this from https://freefrontend.com/css-quote-styles/ */
 .quote {
   border-left: 3px solid #402d1e;
   color: #1a1a1a;
@@ -138,10 +139,34 @@ p{
   margin-top: 1em;
 }
 
-#carouselExampleControls {
+/* got this off of bootstrap */
+#carouselExampleIndicators {
+  width:100%;
+  max-width:700px;
+  margin:0 auto;
+  padding-top:15px;
+  height:100%;
+}
+
+.image-wrap{
+  width:100%;
+  position:relative;
+  overflow:hidden;
+  height:240px;/* set arbitrary height*/
+}
+#carousel .image-wrap img.facilitiesImage {
+  width: auto;
+  height:240px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@supports (object-fit: cover){
+#carousel .image-wrap img.facilitiesImage {
   width: 60%;
-  margin: 0 auto;
-  padding: 1% 0px 1% 0px;
+  height:240px;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit:cover;
 }
 
 .full-image {
@@ -162,6 +187,12 @@ p{
   width: 60%;
 }
 
+/* this is also bootstrap */
+.col-md-6 {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
 /*graphic end */
 
 /* footer beginning */
